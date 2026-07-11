@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Backend state
+backend/.sessions.json
+backend/*.log
+
+# iOS
+ios/PocketDevTeam/.build/
+ios/PocketDevTeam/.swiftpm/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcworkspace/xcuserdata/
+ios/DerivedData/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local

@@ -1,0 +1,16 @@
+{
+  "name": "pocket-dev-team-backend",
+  "version": "0.1.0",
+  "description": "Backend server for Pocket Dev Team — mobile interface for AI coding agents",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.3.177",
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "uuid": "^10.0.0"
+  }
+}

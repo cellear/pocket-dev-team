@@ -1,0 +1,44 @@
+{
+  "_comment": "projectRoot is the shared working directory (cwd) all agents operate in. Point it at a real project you want the team to work on.",
+  "projectRoot": "../workspace",
+  "port": 3000,
+  "permissionMode": "acceptEdits",
+  "agents": [
+    {
+      "id": "lila",
+      "name": "Lila",
+      "role": "Librarian",
+      "description": "Specs & documentation",
+      "model": "claude-sonnet-4-5-20250514",
+      "accent": "#6D5BD0"
+    },
+    {
+      "id": "cody",
+      "name": "Cody",
+      "role": "Coder",
+      "description": "Implementation",
+      "model": "claude-sonnet-4-5-20250514",
+      "accent": "#059669"
+    },
+    {
+      "id": "quinn",
+      "name": "Quinn",
+      "role": "QA / Tester",
+      "description": "Verification",
+      "model": "claude-sonnet-4-5-20250514",
+      "accent": "#2563EB"
+    }
+  ],
+  "auth": {
+    "enabled": true,
+    "tokens": []
+  },
+  "push": {
+    "enabled": false,
+    "apns": {
+      "keyId": "",
+      "teamId": "",
+      "bundleId": "com.example.pocketdevteam"
+    }
+  }
+}
